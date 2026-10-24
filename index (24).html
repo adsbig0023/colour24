@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Colour Trading | Join Telegram</title>
+
+<!-- Meta Pixel Code: Paste your Pixel code here -->
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  background:#f4f8fb;
+  color:#102431;
+  line-height:1.6;
+}
+
+header{
+  background:#071722;
+  color:white;
+  padding:12px 15px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo{
+  width:43px;
+  height:43px;
+  border-radius:50%;
+  overflow:hidden;
+  background:#08c8b0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:21px;
+  font-weight:bold;
+}
+
+.logo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.brand h2{font-size:18px}
+.brand p{font-size:10px;color:#bdced8}
+
+.top-btn{
+  background:#078cff;
+  color:white;
+  padding:8px 12px;
+  font-size:11px;
+  border-radius:25px;
+  text-decoration:none;
+  white-space:nowrap;
+}
+
+.hero{
+  background:linear-gradient(145deg,#06151f,#064b57);
+  color:white;
+  text-align:center;
+  padding:35px 16px 40px;
+}
+
+.tag{
+  color:#45edc2;
+  font-size:11px;
+  font-weight:bold;
+  letter-spacing:1px;
+}
+
+.hero h1{
+  font-size:30px;
+  line-height:1.25;
+  margin:12px 0;
+}
+
+.hero h1 span{color:#43e8bd}
+
+.hero p{
+  font-size:13px;
+  color:#d5e5eb;
+  max-width:460px;
+  margin:12px auto;
+}
+
+/* Main promotional photo */
+.hero-photo{
+  width:100%;
+  max-width:400px;
+  height:190px;
+  object-fit:cover;
+  border-radius:14px;
+  margin:18px auto;
+  display:block;
+  border:1px solid #3b7c87;
+}
+
+.balls{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  margin:18px 0;
+}
+
+.ball{
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  box-shadow:inset -5px -5px 9px #0003;
+}
+
+.red{background:#ff3655}
+.green{background:#00c878}
+.blue{background:#148cff}
+.yellow{background:#ffc629}
+.purple{background:#9949ed}
+
+.join{
+  display:inline-block;
+  background:linear-gradient(90deg,#00b9ff,#0865ff,#00d9ed);
+  color:white;
+  text-decoration:none;
+  font-size:16px;
+  font-weight:bold;
+  padding:12px 26px;
+  border-radius:35px;
+  border:1px solid #85edff;
+  box-shadow:0 0 10px #00c8ff;
+  animation:shine 2s infinite;
+}
+
+@keyframes shine{
+  0%,100%{box-shadow:0 0 7px #00c8ff}
+  50%{box-shadow:0 0 22px #00eaff}
+}
+
+.small-note{
+  font-size:10px!important;
+  color:#bcd2dc!important;
+}
+
+section{
+  padding:28px 16px;
+  text-align:center;
+}
+
+section h2{
+  font-size:22px;
+  margin-bottom:10px;
+}
+
+.desc{
+  font-size:13px;
+  color:#586c78;
+  max-width:520px;
+  margin:auto;
+}
+
+/* Feature cards */
+.features{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+  margin-top:20px;
+}
+
+.feature{
+  background:white;
+  border:1px solid #e2ecef;
+  border-radius:12px;
+  padding:15px 9px;
+}
+
+.feature .emoji{font-size:25px}
+.feature h3{font-size:13px;margin:5px 0}
+.feature p{font-size:11px;color:#657680}
+
+/* Second photo */
+.promo-photo{
+  width:100%;
+  max-width:420px;
+  height:160px;
+  object-fit:cover;
+  display:block;
+  margin:0 auto 18px;
+  border-radius:12px;
+}
+
+.cta{
+  margin:0 15px 24px;
+  padding:24px 15px;
+  border-radius:15px;
+  background:#071722;
+  color:white;
+  text-align:center;
+}
+
+.cta h2{
+  font-size:22px;
+  line-height:1.4;
+}
+
+.cta h2 span{color:#43e8bd}
+
+.cta p{
+  font-size:12px;
+  color:#d0e0e8;
+  margin:9px 0 17px;
+}
+
+.disclaimer{
+  font-size:10px;
+  color:#62737d;
+  padding:0 18px 22px;
+  text-align:center;
+}
+
+footer{
+  background:#071722;
+  color:white;
+  text-align:center;
+  padding:18px 12px;
+  font-size:12px;
+}
+
+footer a{
+  color:#45e8bd;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+footer p{
+  color:#b7cbd7;
+  font-size:10px;
+  margin-top:5px;
+}
+
+@media(min-width:600px){
+  .hero{padding:45px 20px}
+  .hero h1{font-size:38px}
+  .container{max-width:760px;margin:auto}
+  .features{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand">
+    <div class="logo">
+      <!-- LOGO IMAGE: Replace logo.jpg with your image file -->
+      <img src="logo.jpg" alt="Logo"
+           onerror="this.style.display='none';this.parentElement.textContent='C';">
+    </div>
+    <div>
+      <h2>Colour Trading</h2>
+      <p>Learn • Understand • Trade</p>
+    </div>
+  </div>
+
+  <!-- TELEGRAM LINK -->
+  <a class="top-btn" href="https://t.me/" target="_blank">
+    ✈ Join Telegram
+  </a>
+</header>
+
+<div class="hero">
+  <div class="tag">COLOUR TRADING INFORMATION</div>
+
+  <h1>Explore Colour Trading<br>
+  <span>Learn The Basics</span></h1>
+
+  <p>
+    Discover how colour-based prediction platforms work,
+    understand the rules and learn about the risks before
+    making any financial decisions.
+  </p>
+
+  <!-- MAIN PHOTO: Replace trading.jpg with your own image -->
+  <img class="hero-photo"
+       src="trading.jpg"
+       alt="Colour Trading"
+       onerror="this.style.display='none';">
+
+  <div class="balls">
+    <div class="ball red"></div>
+    <div class="ball green"></div>
+    <div class="ball blue"></div>
+    <div class="ball yellow"></div>
+    <div class="ball purple"></div>
+  </div>
+
+  <a class="join" href="https://t.me/" target="_blank">
+    ✈ Join Telegram Channel
+  </a>
+
+  <p class="small-note">
+    Join for general information and updates
+  </p>
+</div>
+
+<div class="container">
+
+<section>
+  <h2>What Is Colour Trading?</h2>
+
+  <p class="desc">
+    Colour-based prediction platforms ask users to predict
+    outcomes such as colours or other results. Understand
+    the platform rules, risks and legality before participating.
+  </p>
+
+  <div class="features">
+
+    <div class="feature">
+      <div class="emoji">📘</div>
+      <h3>Basic Knowledge</h3>
+      <p>Learn the basics and rules</p>
+    </div>
+
+    <div class="feature">
+      <div class="emoji">🎯</div>
+      <h3>How It Works</h3>
+      <p>Understand prediction outcomes</p>
+    </div>
+
+    <div class="feature">
+      <div class="emoji">🛡️</div>
+      <h3>Risk Awareness</h3>
+      <p>Learn about financial risks</p>
+    </div>
+
+    <div class="feature">
+      <div class="emoji">📢</div>
+      <h3>Latest Updates</h3>
+      <p>General information and news</p>
+    </div>
+
+  </div>
+</section>
+
+<div class="cta">
+
+  <!-- OPTIONAL SECOND PHOTO -->
+  <img class="promo-photo"
+       src="banner.jpg"
+       alt="Trading Banner"
+       onerror="this.style.display='none';">
+
+  <h2>Stay Informed<br>
+  <span>Join Our Telegram</span></h2>
+
+  <p>
+    Get general information and updates about colour trading.
+    Always make informed and responsible decisions.
+  </p>
+
+  <a class="join" href="https://t.me/" target="_blank">
+    ✈ Join Telegram
+  </a>
+
+</div>
+</div>
+
+<div class="disclaimer">
+  Disclaimer: This website is for informational purposes only.
+  No profits or returns are guaranteed. Check the legality and
+  risks of any platform before participating.
+</div>
+
+<footer>
+  <div>Ad Managed by</div>
+
+  <!-- ADSBIG AGENCY LINK -->
+  <a href="https://t.me/nTRMAouerik1ZGY1" target="_blank">
+    Adsbig Agency ↗
+  </a>
+
+  <p>Information • Awareness • Responsible Decisions</p>
+</footer>
+
+</body>
+</html>
